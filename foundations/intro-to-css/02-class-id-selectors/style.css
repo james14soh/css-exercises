@@ -7,20 +7,31 @@ The third element: in addition to the styles for all odd numbered elements, add 
 The fourth element: a light green background, a font size of 24px, and bold 
 */
 
-.odd-number,
-.odd-but-cooler {
-    background-color: #f7a9b5; font-family: Verdana, "DajaVu Sans", sans-serif;
+.odd-number
+/* .odd-but-cooler */ {
+    background-color: #f7a9b5; 
+    font-family: Verdana, "DajaVu Sans", sans-serif;
 }
 
 #second {
-    color: rgb(0, 0, 255); font-size: 36px;
+    color: rgb(0, 0, 255); 
+    font-size: 36px;
 }
 
-.odd-but-cooler {
+/* from TOP solutions */
+.adjust-font-size {
     font-size: 24px;
 }
 
+/* can be used but .adjust-font-size above saves redundant code 
+.odd-but-cooler { 
+    font-size: 24px;
+}
+*/
+
 #fourth {
     /* font-weight: 700 = font-weight: bold */
-    background-color: hsl(120, 73%, 75%); font-size: 24px; font-weight: 700;
+    background-color: hsl(120, 73%, 75%); 
+    /* redundant font-size: 24px; */ 
+    font-weight: 700;
 }
