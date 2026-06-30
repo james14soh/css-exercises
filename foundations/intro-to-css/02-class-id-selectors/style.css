@@ -9,7 +9,7 @@ The fourth element: a light green background, a font size of 24px, and bold
 
 .odd-number,
 .odd-but-cooler {
-    background-color: #f7a9b5; font-family: "Verdana", "DajaVu Sans", sans-serif;
+    background-color: #f7a9b5; font-family: Verdana, "DajaVu Sans", sans-serif;
 }
 
 #second {
