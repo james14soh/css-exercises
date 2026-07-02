@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-/* moved .para above .small-para */
+/* moved .para above .small-para using rule order for specificity */
 .para {
   font-size: 22px;
 }
@@ -18,17 +18,32 @@ body {
   font-weight: 800;
 }
 
+/* ANOTHER POSSIBLE SOLUTION
+also possible to keep it above .para but make use of chain selectors;
+since this has more selectors than single .para, it has higher specificity 
+
+p.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+*/
+
+/* created this ID as there is an ID selector in index.html */
 #confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 }
 
-.confirm {
+/* ANOTHER POSSIBLE SOLUTION
+chaining selectors so that we can add style to only the element containing the .confirm selector.
+
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
+*/
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -36,10 +51,10 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
+  font-size: 16px;
   font-weight: 800;
-  font-size: 14px;
 }
 
 div.text {
@@ -47,3 +62,23 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* 
+descendant combinator; moved .child below div.text and made div an ancestor to .child; 
+also adjust font-size from 14px to 16px 
+
+div .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 16px;
+}*/
+
+
+/* ANOTHER POSSIBLE SOLUTION
+keep .child above div.text and add .text as an ancestor
+
+.text .child {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 800;
+} */
