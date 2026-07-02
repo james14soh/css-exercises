@@ -26,6 +26,7 @@ div p {
 */
 
 /* using type and class selectors */
+/* .container p also possible */
 div .text {
     background-color: yellow;
     color: red;
