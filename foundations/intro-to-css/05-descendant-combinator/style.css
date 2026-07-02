@@ -26,8 +26,17 @@ div p {
 */
 
 /* using type and class selectors */
-/* .container p also possible */
+/*
 div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* .container p also possible */
+.container p {
     background-color: yellow;
     color: red;
     font-size: 20px;
