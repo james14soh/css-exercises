@@ -18,6 +18,12 @@ body {
   font-weight: 800;
 }
 
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
 .confirm {
   background: green;
   color: white;
