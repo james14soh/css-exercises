@@ -51,12 +51,6 @@ chaining selectors so that we can add style to only the element containing the .
   font-size: 20px;
 }
 
-.text .child {
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  font-weight: 800;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
@@ -66,12 +60,12 @@ div.text {
 /* 
 descendant combinator; moved .child below div.text and made div an ancestor to .child; 
 also adjust font-size from 14px to 16px 
-
+*/
 div .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 16px;
-}*/
+}
 
 
 /* ANOTHER POSSIBLE SOLUTION
