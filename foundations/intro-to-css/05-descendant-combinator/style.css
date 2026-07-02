@@ -16,9 +16,20 @@ div p {
 */
 
 /* using class selectors */
+/*
 .container .text {
     background-color: yellow;
     color: red;
     font-size: 20px;
     text-align: center;
 }
+*/
+
+/* using type and class selectors */
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
