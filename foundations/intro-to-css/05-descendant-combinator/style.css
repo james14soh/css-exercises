@@ -6,12 +6,9 @@ red text, a font size of 20px, and center aligned
 */
 
 /* using type selectors */
-
-/* 
 div p { 
     background-color: yellow;
     color: red;
     font-size: 20px;
     text-align: center;
 }
-*/
