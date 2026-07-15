@@ -3,6 +3,9 @@
   background: papayawhip;
   
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -11,10 +14,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-
-  display: flex;
-  padding: 4px 20px;
-  margin: 8px;
 }
 
 ul {
@@ -22,6 +21,9 @@ ul {
   list-style-type: none;
 
   display: flex;
+  padding-inline-start: 0px;
+  /* padding: 0px; - can also use */
+  gap: 8px;
 }
 
 a {
