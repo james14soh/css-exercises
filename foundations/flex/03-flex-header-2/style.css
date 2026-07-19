@@ -37,6 +37,7 @@ body {
 /* new class */
 .left-items {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
@@ -68,5 +69,6 @@ ul {
 
   display: flex;
   padding: 0px;
+  margin: 0px;
   gap: 16px;
 }
