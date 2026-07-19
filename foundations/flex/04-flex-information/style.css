@@ -7,9 +7,42 @@ img {
   height: 100px;
 }
 
+/* flex container for page */
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* adding flex and making title take up width of page */
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  display: flex;
+  margin: 32px;
+}
+
+/* container for the items to be displayed in a row and add gaps */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 52px;
+}
+
+/* flex container for img and text */
+.item {
+  display: flex;
+  justify-content: center;
+  flex-basis: 200px;
+  flex-wrap: wrap;
+}
+
+/* ensure that text is centre-aligned */
+.text {
+  display: flex;
+  text-align: center;
 }
 
 /* do not edit this footer */
