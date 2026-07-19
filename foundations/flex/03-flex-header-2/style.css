@@ -44,10 +44,19 @@ body {
 /* new class */
 .right-items {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 16px;
 }
+
+/* 
+.left-items and .right-items can be combined
+
+.left-items, .right-items {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+*/
 
 button {
   border: none;
