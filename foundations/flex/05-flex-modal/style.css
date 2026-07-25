@@ -79,14 +79,14 @@ button.cancel {
   color: royalblue;
 }
 
-/* make header, text and buttons wrap and put space between items 
+/* make header, text and buttons wrap and put space between items */ 
 .container {
   display: flex;
   padding: 0px;
   flex-wrap: wrap;
   gap: 5px;
 }
-*/
+
 /* make header font bold and bigger than text 
 .header {
   font-weight: bold;
