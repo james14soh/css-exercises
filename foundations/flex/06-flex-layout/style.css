@@ -61,8 +61,13 @@ a {
   align-items: center;
   /* allows content to fill up space so footer is pushed to bottom */
   flex-grow: 1; 
+  gap: 16px;
 }
 
-.buttons {
-  padding: 10px;
+/* style footer and align links to the left and right of container */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 12px;
 }
