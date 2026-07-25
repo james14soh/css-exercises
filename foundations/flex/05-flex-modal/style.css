@@ -87,14 +87,13 @@ button.cancel {
   gap: 5px;
 }
 
-/* make header font bold and bigger than text 
+/* make header font bold and bigger than text */
 .header {
   font-weight: bold;
   font-size: 18px;
 }
-*/
-/* add margin between text box and bottom buttons 
+
+/* add margin between text box and bottom buttons */
 .text {
   margin-bottom: 10px;
 }
-*/
