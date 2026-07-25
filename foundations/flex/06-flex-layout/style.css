@@ -36,13 +36,14 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 4px 16px;
+  padding: 16px;
 }
 
 /* remove bullets and padding from lists */
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;;
   padding: 0px;
   gap: 16px;
 }
@@ -69,5 +70,5 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #eee;
-  padding: 4px 16px;
+  padding: 16px;
 }
