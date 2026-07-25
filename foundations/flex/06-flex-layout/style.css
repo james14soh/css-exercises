@@ -6,6 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 
+  /* to push footer to the bottom */
   display: flex;
   flex-direction: column;
 }
@@ -56,8 +57,10 @@ a {
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  /* allows content to fill up space so footer is pushed to bottom */
+  flex-grow: 1; 
 }
 
 .buttons {
