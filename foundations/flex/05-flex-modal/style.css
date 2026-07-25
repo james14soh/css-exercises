@@ -40,7 +40,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  /* flex-shrink: 0; */
+  flex-shrink: 0;
 }
 
 /* align close button to top right of container */
