@@ -40,7 +40,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 /* align close button to top right of container */
@@ -58,7 +58,7 @@ body {
   border: 1px solid #eee;
   padding: 0;
 
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 button {
@@ -79,21 +79,22 @@ button.cancel {
   color: royalblue;
 }
 
-/* make header, text and buttons wrap and put space between items */
+/* make header, text and buttons wrap and put space between items 
 .container {
   display: flex;
   padding: 0px;
   flex-wrap: wrap;
   gap: 5px;
 }
-
-/* make header font bold and bigger than text */
+*/
+/* make header font bold and bigger than text 
 .header {
   font-weight: bold;
   font-size: 18px;
 }
-
-/* add margin between text box and bottom buttons */
+*/
+/* add margin between text box and bottom buttons 
 .text {
   margin-bottom: 10px;
 }
+*/
