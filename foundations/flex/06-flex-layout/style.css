@@ -36,7 +36,7 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 4px 16px;
 }
 
 /* remove bullets and padding from lists */
@@ -69,5 +69,5 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #eee;
-  padding: 12px;
+  padding: 4px 16px;
 }
