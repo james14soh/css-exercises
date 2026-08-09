@@ -48,9 +48,8 @@ body {
   border-radius: 4px;
 
   /* set size of cards */
-  box-sizing: border-box;
-  flex-basis: 325px;
-  padding: 12px;
+  width: 300px;
+  padding: 16px;
 }
 
 .content {
