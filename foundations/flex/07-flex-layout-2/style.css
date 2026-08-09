@@ -8,6 +8,7 @@ body {
   flex-direction: column;
 }
 
+/* adjust font style, size and position */
 .header {
   height: 72px;
   background: darkmagenta;
@@ -15,27 +16,40 @@ body {
 
   font-size: 32px;
   font-weight: 900;
+  align-content: center;
+  padding-left: 16px;
 }
 
+/* centre the footer text */
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* add padding to links on sidebar */
 .sidebar {
   min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  padding: 16px;
 }
 
+/* adjust sizing and add padding to individual cards */
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
   /* set size of cards */
-  flex-basis: 300px;
+  box-sizing: border-box;
+  flex-basis: 325px;
+  padding: 12px;
 }
 
 .content {
@@ -44,6 +58,7 @@ body {
   flex-grow: 1;
 }
 
+/* create a card container to hold the cards */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +71,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  margin: 12px;
+  margin: 0px;
   padding: 0px;
   gap: 16px;
 }
@@ -65,4 +80,5 @@ ul {
 a {
   text-decoration: none; /* removes underline from text */
   color: white;
+  font-size: 24px;
 }
