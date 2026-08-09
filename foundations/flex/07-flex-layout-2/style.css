@@ -12,6 +12,9 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
@@ -32,7 +35,7 @@ body {
   border-radius: 4px;
 
   /* set size of cards */
-  flex-basis: 200px;
+  flex-basis: 300px;
 }
 
 .content {
@@ -44,6 +47,22 @@ body {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 16px;
+  padding: 48px;
+  gap: 28px;
+}
+
+/* remove bullets and padding from lists */
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  padding: 0px;
   gap: 16px;
+}
+
+/* control how links look */
+a {
+  text-decoration: none; /* removes underline from text */
+  color: white;
 }
